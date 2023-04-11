@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetWallPaper">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5382625544778444/4749926854">
+    </com.google.android.gms.ads.AdView>
+
+
+    <ImageView
+        android:layout_below="@+id/adView"
+        android:padding="2dp"
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:scaleType="fitXY"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/apply" android:layout_margin="16dp"
+        android:textAllCaps="false"
+        android:text="Set wallpaper"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#03A9F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

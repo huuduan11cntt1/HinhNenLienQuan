@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "125160891946",
+    "project_id": "hinh-nen-lien-quan-hd",
+    "storage_bucket": "hinh-nen-lien-quan-hd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125160891946:android:2d7e70992b9edf54bb4553",
+        "android_client_info": {
+          "package_name": "kingtran.hinhnen.lienquan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125160891946-efqacmn5i1le7qakdm9vp9fud439b11r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kingtran.hinhnen.lienquan",
+            "certificate_hash": "fbfec8c95d542a38e74c069dc293b3a9e5b45e87"
+          }
+        },
+        {
+          "client_id": "125160891946-4h19275hqces2bee64ajrhl91ghd9j4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN9BoGGiI0c1oDYPnAuIuvr8epZtmTzdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125160891946-4h19275hqces2bee64ajrhl91ghd9j4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
